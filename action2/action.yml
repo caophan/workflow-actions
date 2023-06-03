@@ -1,0 +1,7 @@
+name: 'Build and Push'
+description: 'Build and push image'
+runs:
+  using: "composite"
+  steps:
+    - run: echo Build and Push image repository.
+      shell: bash
